@@ -21,3 +21,6 @@ def projects(request):
 
 def cv(request):
     return render(request, 'main/cv.html')
+
+def christmas(request):
+    return render(request, 'main/christmas.html')
