@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <head>
   <style>
   div#message {
@@ -1850,6 +1853,7 @@ body {
   }
 }
 
+
   </style>
 <script>
 var html = document.getElementsByTagName("html")[0];
@@ -1945,8 +1949,13 @@ animate();
 
 <div id="message">
   <h1 width="500px" >Merry Christmas Fuck Face</h1>
-  <br><br><br><br>
-  <a href="/" style="padding: 10px;">Here's a link to your website.</a>
+  <br><br><br>
+    <a href="/" style="padding: 10px;">Here's a link to your website.</a>
+
+  <br><br>
+    <p>Have an awesome day my favourate gal :)</p>
+
+  <br>
 </div>
 
 <div class="container">
@@ -2847,4 +2856,12 @@ animate();
     </div>
   </div>
 </div>
+
+<table>
+  <tr>
+    <img src="{% static 'main/images/1.jpg' %}" width="200px" height="200px" style="margin-top:300px;">
+  </tr>
+
+
+</table>
 </body>
