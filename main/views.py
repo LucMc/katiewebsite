@@ -16,7 +16,7 @@ def home(request):
 def about(request):
     return render(request, 'main/about.html')
 
-def projects(request):
+def interests(request):
     return render(request, 'main/projects.html')
 
 def cv(request):
