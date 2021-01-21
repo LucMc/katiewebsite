@@ -17,3 +17,9 @@
   });
 
 })(jQuery);
+$(window).resize(function{
+    // your code
+    var windowWidth=$(window).width();
+    var mainContainerWidth=windowWidth-500; // For example
+    $("#yourMainContainer").css({"width":mainContainerWidth+"px"});
+});
